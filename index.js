@@ -1,7 +1,6 @@
 module.exports = function() {
   return function (req, res) {
     var returnTo = req.query.returnTo;
-    if(!req.user) return redir(res, returnTo);
 
     req.logout();
     delete req.session;
