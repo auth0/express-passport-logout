@@ -1,4 +1,9 @@
-Express middleware to logout a user from passport and redirect somewhere
+Express middleware to logout a user from passport and redirect somewhere. 
+
+It will
+* `req.logout()`
+* delete `req.session`
+* redirect to `req.query.returnTo` if exists, if not `res.send(bye)`
 
 ## Install
 
