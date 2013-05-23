@@ -1,0 +1,17 @@
+{
+  "name": "express-passport-logout",
+  "version": "0.1.0",
+  "description": "express middleware to logout from passport",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auth0/express-passport-logout.git"
+  },
+  "keywords": [
+    "express",
+    "logout",
+    "passport"
+  ],
+  "author": "Auth0",
+  "license": "MIT"
+}
