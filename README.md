@@ -5,6 +5,9 @@ It will
 * delete `req.session`
 * redirect to `req.query.returnTo` if exists, if not `res.send(bye)`
 
+It will not
+* work with passport extensions which use OAuth such as passport-github
+
 ## Install
 
 	npm install express-passport-logout
